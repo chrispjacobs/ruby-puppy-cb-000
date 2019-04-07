@@ -22,4 +22,4 @@ end
 fido = Dog.new("Fido")
 rosie = Dog.new("Rosie")
 sadie = Dog.new("Sadie")
-Dog.all
+puts Dog.all
