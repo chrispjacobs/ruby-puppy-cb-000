@@ -19,7 +19,7 @@ class Dog
   end
 end
 
-fido = Dog.new("Fido")
-rosie = Dog.new("Rosie")
-sadie = Dog.new("Sadie")
-puts Dog.all
+# fido = Dog.new("Fido")
+# rosie = Dog.new("Rosie")
+# sadie = Dog.new("Sadie")
+# puts Dog.all
