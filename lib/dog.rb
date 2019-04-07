@@ -12,7 +12,7 @@ class Dog
     @@all.each do |dog|
       solution_array << dog.name
     end
-    solution_array
+    puts solution_array
   end
   def name
     @name
