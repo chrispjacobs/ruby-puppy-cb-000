@@ -1,16 +1,18 @@
 class Dog
   @@all = []
-  @@all_names = []
   def initialize(name)
     @name = name
     @@all << self
-    @@all_names << name
   end
   def self.clear_all
     @@all = []
   end
   def self.all
-    puts @@all_names
+    solution_array = []
+    @@all.each do |dog|
+      solution_array << dog.name
+    end
+    solution_array
   end
   def name
     @name
